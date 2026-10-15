@@ -1,55 +1,31 @@
-# Mintlify Starter Kit
+# GPTAd agency documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Client-facing guides for working with GPTAd on ChatGPT Ads. Built with Mintlify.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Content structure
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+- `index.mdx`, `services.mdx`, `quickstart.mdx`: agency overview, scope, and becoming a client.
+- `working-together/`: agreement review and onboarding after acceptance.
+- `campaigns/`: planning, approvals, delivery, and measurement.
+- `support.mdx`: communication, changes, and handover.
+- `docs.json`: navigation and branding.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Preview and validate
 
-## AI-assisted writing
+With the Mintlify CLI installed, run from this directory:
 
-Set up your AI coding tool to work with Mintlify:
-
-```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
+```sh
 mint dev
+mint validate
+mint broken-links
 ```
 
-View your local preview at `http://localhost:3000`.
+See the [official CLI instructions](https://www.mintlify.com/docs/cli/install) for installation requirements.
 
-## Publishing changes
+## Editorial rules
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+Write for agency prospects and clients. Keep agreement acceptance before onboarding, access requests, and delivery. Keep launch approval separate from agreement acceptance. Do not document internal software or self-service account workflows.
 
-## Need help?
+Do not invent pricing, contractual terms, response-time guarantees, platform access, partnerships, or performance promises. The client agreement defines the actual scope and terms. Link platform-specific claims to primary OpenAI sources and recheck them before publishing changes.
 
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+Platform references were reviewed on 15 October 2026. Review them whenever platform behavior changes. Check internal links, navigation, MDX validity, and light/dark branding before publication. Publishing is a separate action from editing locally.

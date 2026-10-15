@@ -1,33 +1,24 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# GPTAd documentation instructions
 
-# Documentation project instructions
+## Project
 
-## About this project
+This Mintlify site contains agency guides for GPTAd prospects and clients. Content is MDX with title and description frontmatter. Navigation and branding live in `docs.json`.
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+## Audience and boundaries
 
-## Terminology
+- Focus on ChatGPT Ads agency services and the client relationship.
+- Onboarding begins only after the client accepts the service agreement.
+- Keep discovery, agreement acceptance, onboarding, and launch approval distinct.
+- Do not document internal software, account signup, or self-service product workflows.
+- Keep advertising spend separate from agency fees.
+- Do not invent commercial commitments, platform eligibility, partnerships, or results.
+- Link changing platform claims to current official OpenAI sources.
+- Treat the agreement as the authority for scope, fees, timing, and contractual terms.
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+## Writing
 
-## Style preferences
+Use active voice, sentence case, concise sentences, and direct language. Explain each page's purpose and the next step. Use descriptive links and tables for comparisons. Avoid duplicating detailed checklists across pages. Preserve the public contact address `contact@gptad.io` unless a verified replacement is provided.
 
-{/* Add any project-specific style rules below */}
+## Validation
 
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
-
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+Run `mint validate` and `mint broken-links` after edits. Review the diff, navigation coverage, and agreement-first journey. Keep maintainer-only files excluded in `.mintignore`. Do not publish or push unless requested.
