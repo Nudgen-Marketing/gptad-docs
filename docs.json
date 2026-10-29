@@ -34,6 +34,12 @@
         ]
       },
       {
+        "group": "Partners",
+        "pages": [
+          "affiliates"
+        ]
+      },
+      {
         "group": "Help",
         "pages": [
           "support"

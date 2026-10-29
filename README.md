@@ -7,6 +7,7 @@ Client-facing guides for working with GPTAd on ChatGPT Ads. Built with Mintlify.
 - `index.mdx`, `services.mdx`, `quickstart.mdx`: agency overview, scope, and becoming a client.
 - `working-together/`: agreement review and onboarding after acceptance.
 - `campaigns/`: planning, approvals, delivery, and measurement.
+- `affiliates.mdx`: referral program, 10% lifetime service-fee commission, and partner booking.
 - `support.mdx`: communication, changes, and handover.
 - `docs.json`: navigation and branding.
 
